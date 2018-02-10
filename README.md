@@ -2,7 +2,7 @@
 
 Copyright (c) 2011-2017 HERE Europe B.V.
 
-This repository holds a series of Objective-C-based projects using the HERE SDK for iOS. More information about the API can be found on developer.here.com under the Android & iOS SDKs section.
+This repository holds a series of Objective-C-based projects using the HERE SDK for iOS. More information about the API can be found on  https://developer.here.com under the Android & iOS SDKs section.
 
 This set of self-contained, use-case based projects is designed to be cloned by developers for their own use.
 
@@ -10,8 +10,8 @@ Note: In order to get the sample code to work, you must replace all instances of
 
 You can obtain a set of credentials from the Contact Us page on developer.here.com.The bundle ID registered must match it in your app.
 
-# This project conatin Turn by Turn HERE Maps
-
+# This project conatin Turn by Turn HERE Maps its swift version from  https://github.com/heremaps/here-ios-sdk-examples
+to more details vist  https://developer.here.com/develop/mobile-sdks
 
 # How to build apps
 Using CocoaPods
