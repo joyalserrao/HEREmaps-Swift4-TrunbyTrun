@@ -1,0 +1,415 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		18D35BFD202DE3CD00F373D6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18D35BFC202DE3CD00F373D6 /* AppDelegate.swift */; };
+		18D35BFF202DE3CD00F373D6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18D35BFE202DE3CD00F373D6 /* ViewController.swift */; };
+		18D35C02202DE3CD00F373D6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18D35C00202DE3CD00F373D6 /* Main.storyboard */; };
+		18D35C04202DE3CD00F373D6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18D35C03202DE3CD00F373D6 /* Assets.xcassets */; };
+		18D35C07202DE3CD00F373D6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18D35C05202DE3CD00F373D6 /* LaunchScreen.storyboard */; };
+		65DE6DC36B29EE7F065F974A /* Pods_HEREMaps.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F76F010BB029982A7011EAD0 /* Pods_HEREMaps.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		18D35BF9202DE3CD00F373D6 /* HEREMaps.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HEREMaps.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		18D35BFC202DE3CD00F373D6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		18D35BFE202DE3CD00F373D6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		18D35C01202DE3CD00F373D6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		18D35C03202DE3CD00F373D6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		18D35C06202DE3CD00F373D6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		18D35C08202DE3CD00F373D6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7920069D49194E86566F1A35 /* Pods-HEREMaps.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HEREMaps.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HEREMaps/Pods-HEREMaps.debug.xcconfig"; sourceTree = "<group>"; };
+		D84476667E94467737DA684E /* Pods-HEREMaps.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HEREMaps.release.xcconfig"; path = "Pods/Target Support Files/Pods-HEREMaps/Pods-HEREMaps.release.xcconfig"; sourceTree = "<group>"; };
+		F76F010BB029982A7011EAD0 /* Pods_HEREMaps.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HEREMaps.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		18D35BF6202DE3CD00F373D6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				65DE6DC36B29EE7F065F974A /* Pods_HEREMaps.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		18D35BF0202DE3CD00F373D6 = {
+			isa = PBXGroup;
+			children = (
+				18D35BFB202DE3CD00F373D6 /* HEREMaps */,
+				18D35BFA202DE3CD00F373D6 /* Products */,
+				BF8AA0A2439BA5A59C6EFDB5 /* Pods */,
+				73BBB4C22E62532A3D8B510F /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		18D35BFA202DE3CD00F373D6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				18D35BF9202DE3CD00F373D6 /* HEREMaps.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		18D35BFB202DE3CD00F373D6 /* HEREMaps */ = {
+			isa = PBXGroup;
+			children = (
+				18D35BFC202DE3CD00F373D6 /* AppDelegate.swift */,
+				18D35BFE202DE3CD00F373D6 /* ViewController.swift */,
+				18D35C00202DE3CD00F373D6 /* Main.storyboard */,
+				18D35C03202DE3CD00F373D6 /* Assets.xcassets */,
+				18D35C05202DE3CD00F373D6 /* LaunchScreen.storyboard */,
+				18D35C08202DE3CD00F373D6 /* Info.plist */,
+			);
+			path = HEREMaps;
+			sourceTree = "<group>";
+		};
+		73BBB4C22E62532A3D8B510F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F76F010BB029982A7011EAD0 /* Pods_HEREMaps.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BF8AA0A2439BA5A59C6EFDB5 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7920069D49194E86566F1A35 /* Pods-HEREMaps.debug.xcconfig */,
+				D84476667E94467737DA684E /* Pods-HEREMaps.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		18D35BF8202DE3CD00F373D6 /* HEREMaps */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18D35C0B202DE3CD00F373D6 /* Build configuration list for PBXNativeTarget "HEREMaps" */;
+			buildPhases = (
+				ED634880DF494A0906BA817A /* [CP] Check Pods Manifest.lock */,
+				18D35BF5202DE3CD00F373D6 /* Sources */,
+				18D35BF6202DE3CD00F373D6 /* Frameworks */,
+				18D35BF7202DE3CD00F373D6 /* Resources */,
+				ABE779E56BEA6E2657E76048 /* [CP] Embed Pods Frameworks */,
+				A8B1D7FB12D957FF257F5EEF /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HEREMaps;
+			productName = HEREMaps;
+			productReference = 18D35BF9202DE3CD00F373D6 /* HEREMaps.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		18D35BF1202DE3CD00F373D6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0900;
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = Joyal;
+				TargetAttributes = {
+					18D35BF8202DE3CD00F373D6 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = 18D35BF4202DE3CD00F373D6 /* Build configuration list for PBXProject "HEREMaps" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 18D35BF0202DE3CD00F373D6;
+			productRefGroup = 18D35BFA202DE3CD00F373D6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				18D35BF8202DE3CD00F373D6 /* HEREMaps */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		18D35BF7202DE3CD00F373D6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18D35C07202DE3CD00F373D6 /* LaunchScreen.storyboard in Resources */,
+				18D35C04202DE3CD00F373D6 /* Assets.xcassets in Resources */,
+				18D35C02202DE3CD00F373D6 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		A8B1D7FB12D957FF257F5EEF /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HEREMaps/Pods-HEREMaps-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		ABE779E56BEA6E2657E76048 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-HEREMaps/Pods-HEREMaps-frameworks.sh",
+				"${PODS_ROOT}/HEREMaps/framework/NMAKit.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/NMAKit.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HEREMaps/Pods-HEREMaps-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		ED634880DF494A0906BA817A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HEREMaps-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		18D35BF5202DE3CD00F373D6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18D35BFF202DE3CD00F373D6 /* ViewController.swift in Sources */,
+				18D35BFD202DE3CD00F373D6 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		18D35C00202DE3CD00F373D6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18D35C01202DE3CD00F373D6 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		18D35C05202DE3CD00F373D6 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18D35C06202DE3CD00F373D6 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		18D35C09202DE3CD00F373D6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		18D35C0A202DE3CD00F373D6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		18D35C0C202DE3CD00F373D6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7920069D49194E86566F1A35 /* Pods-HEREMaps.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7E4566DB8X;
+				INFOPLIST_FILE = HEREMaps/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Smartron.HEREMaps;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		18D35C0D202DE3CD00F373D6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D84476667E94467737DA684E /* Pods-HEREMaps.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7E4566DB8X;
+				INFOPLIST_FILE = HEREMaps/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Smartron.HEREMaps;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		18D35BF4202DE3CD00F373D6 /* Build configuration list for PBXProject "HEREMaps" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18D35C09202DE3CD00F373D6 /* Debug */,
+				18D35C0A202DE3CD00F373D6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18D35C0B202DE3CD00F373D6 /* Build configuration list for PBXNativeTarget "HEREMaps" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18D35C0C202DE3CD00F373D6 /* Debug */,
+				18D35C0D202DE3CD00F373D6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 18D35BF1202DE3CD00F373D6 /* Project object */;
+}
