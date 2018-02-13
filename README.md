@@ -2,7 +2,6 @@
 
 Copyright (c) 2011-2017 HERE Europe B.V.
 
-This repository holds a series of Objective-C-based projects using the HERE SDK for iOS. More information about the API can be found on  https://developer.here.com under the Android & iOS SDKs section.
 
 This set of self-contained, use-case based projects is designed to be cloned by developers for their own use.
 
